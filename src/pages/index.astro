@@ -1,5 +1,6 @@
 ---
 import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 
 const pageTitle = "Home Page";
@@ -14,9 +15,11 @@ const pageTitle = "Home Page";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		
+
 		<Navigation />
 
-		<h1>This is a test, again, again. Now with links and a blog page.</h1>
+		
+		<h1>{pageTitle}</h1>
+		<Footer />
 	</body>
 </html>
